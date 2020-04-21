@@ -1,0 +1,1 @@
+docker run -tid -p8111:80 --name debian-lighty -v debian-lighty-etc:/etc/lighttpd/ -v debian-lighty-www:/var/www/html debian-lighttpd
